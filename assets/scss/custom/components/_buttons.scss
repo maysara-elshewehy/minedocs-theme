@@ -73,10 +73,21 @@ $value in $theme-colors {
         align-items: center;
         justify-content: center;
         padding: 0;
+        transition: color 0.3s ease;
         .icons {
             height: 16px;
             width: 16px;
             font-size: 16px;
+        }
+        &.btn-soft {
+            &:hover {
+                color: var(--feature-icon-color) !important;
+                background-color: transparent !important;
+                border-color: transparent !important;
+            }
+        }
+        &:hover {
+            color: var(--feature-icon-color) !important;
         }
         &.btn-lg {
             height: 48px;

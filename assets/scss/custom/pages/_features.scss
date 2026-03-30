@@ -79,6 +79,14 @@ $value in $theme-colors {
                     border-color: #{$value} !important;
                     color: $white !important;
                 }
+                &.btn-icon {
+                    &:hover {
+                        color: var(--feature-icon-color) !important;
+                        background-color: transparent !important;
+                        border-color: transparent !important;
+                        box-shadow: none !important;
+                    }
+                }
             }
 
             &:hover {
