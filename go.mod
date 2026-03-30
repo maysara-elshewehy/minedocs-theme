@@ -1,4 +1,4 @@
-module github.com/colinwilson/lotusdocs
+module github.com/maysara-elshewehy/minedocs-theme
 
 go 1.21
 
