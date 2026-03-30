@@ -1,14 +1,10 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
 name = "Mine Docs"
 license = "MIT"
 licenselink = "https://github.com/maysara-elshewehy/minedocs-theme/blob/main/LICENSE"
-description = "A lightweight, modern documentation theme for Hugo. Forked from Mine Docs with custom enhancements."
+description = "A ready-to-use documentation theme"
 homepage = "https://github.com/maysara-elshewehy/minedocs-theme"
 demosite = "https://minelang.dev/"
-tags = ["documentation", "responsive", "bootstrap", "minimal", "secure", "search", "customizable", "modern","dark", "dark mode", "landing page"]
-features = ["security aware", "fast by default", "seo-ready","custom shortcodes", "prismjs syntax highlighting", "deploy to vercel", "flexsearch static search", "docsearch", "landing page layouts", "dark mode", "custom index page"]
+tags = ["mine", "docs"]
 min_version = "0.140.0"
 
 [author]
