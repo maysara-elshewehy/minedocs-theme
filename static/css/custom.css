@@ -409,7 +409,7 @@ mark, ::selection {
     color: #babdc4;
     background: #2d2d2d;
 } */
-p > code, td > code, li > code, h1 > code, h2 > code, h3 > code, h4 > code, h5 > code, h1 > code, strong > code, a > code {
+p > code, td > code, li > code, h1 > code, h2 > code, h3 > code, h4 > code, h5 > code, h1 > code, strong > code, a > code, em > code {
     font-size: .9em !important;
     padding: 1px 3px !important;
     position: relative Im !important;
@@ -472,6 +472,9 @@ span.placeholder {
     cursor: inherit !important;
 }
 
-.docs-content .main-content p > a, .docs-content .main-content li > a {
+.docs-content .main-content p > a, .docs-content .main-content li > a,
+.docs-content .main-content em > a, .docs-content .main-content em > a
+
+{
     text-decoration: underline !important;
 }
