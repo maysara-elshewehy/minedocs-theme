@@ -250,7 +250,7 @@ var sanitizeHTML = function (str) {
 	});
 };
 
-// Sidebar scroll persistence — preserves position across page navigations
+// Sidebar scroll persistence, preserves position across page navigations
 // Supports arbitrary nesting depth (section 17 → sub-section 10 → ...)
 (function () {
     var el = document.querySelector('.sidebar-content');
